@@ -1,186 +1,79 @@
 <!DOCTYPE html>
-<head>
-  <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
+<html>
 
-  <style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    }
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Hello. : " />
 
-  h1 {
-    font-family: 'Roboto Condensed', serif;
-    font-weight: 700;
-    line-height: 46px;
-    font-size: 40px;
-    margin: 0 0 43px 0;
-    }
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 23px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 0 0 23px 0;
-    }
+    <title>Hello.</title>
+  </head>
 
-.list-content {
-    padding:8px;
-}
+  <body>
 
-#container
-{
-	margin: 0 auto;
-	width: 900px;
-	background: #fff;
-}
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mcruz90/maycruz.github.io">View on GitHub</a>
 
-#header
-{
-	background: #ccc;
-	padding: 20px;
-}
+          <h1 id="project_title">Hello.</h1>
+          <h2 id="project_tagline"></h2>
 
-#header h1 { margin: 0; }
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mcruz90/maycruz.github.io/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mcruz90/maycruz.github.io/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-#navigation
-{
-	float: right;
-	width: 900px;
-	background: #333;
-}
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-#navigation ul
-{
-	margin: 0;
-	padding: 0;
-}
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-#navigation ul li
-{
-	list-style-type: none;
-	display: inline;
-}
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-#navigation li a
-{
-	display: block;
-	float: right;
-	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	border-right: 1px solid #fff;
-}
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-#navigation li a:hover { background: #383; }
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-#content-container
-{
-	float: left;
-	width: 900px;
-	background: #fff ;
-}
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-#content
-{
-	float: left;
-	width: 240px;
-	padding: 20px 0;
-	margin: 0 0 0 30px;
-	display: inline;
-}
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-#content h2 { margin: 0; }
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-#aside
-{
-	clear: right;
-	float: right;
-	width: 560px;
-	padding: 20px 0;
-	margin: 0 20px 0 0;
-	display: inline;
-}
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-#aside h3 { margin: 0; }
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-#aside ul
-{
-	margin: 0;
-	padding: 0;
-}
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-#aside ul li
-{
-	list-style-type: none;
-	display: inline;
-	float: right;
-}
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and weâ€™ll help you sort it out.</p>
+      </section>
+    </div>
 
-#footer
-{
-	clear: both;
-	background: #ccc;
-	text-align: right;
-	padding: 20px;
-	height: 1%;
-}
-</style>
-</head>
-<body>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Hello. maintained by <a href="https://github.com/mcruz90">mcruz90</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-<div id="container">
-	<div id="navigation">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Contact us</a></li>
-		</ul>
-	</div>
-	<div id="content-container">
-		<div id="content">
-			<h1>
-				MAY CRUZ
-			</h1>
-<div class="list-content">A(nother) recent grad joining the ranks of the educated-but-unemployed. Currently meandering on her way into the <strike>Real World</strike>environmental professional services industry, carrying a swiss-army knife of skills in research, web-design, working with youth,</div>
+    
 
-<p>
-    <div class="list-title"><h2>Contact</h2></div>
-    <div class="list-content">
-    e: may.cruz1990 {at} gmail.com</br>
-    t: @mcruz90</br>
-    li: /in/mcruz90</br></div>
-	                </p>
-		</div>
-
-		<div id="aside">
-<p>
-        <div class="list-title"><h2>Crossroads</h2></div>
-<p>
-(Completely unrelated to the Britney Spears movie. </p>
-<p>Or is it..? </p>
-Not too sure, I've never actually seen the movie. :P)</p>
-
-<p>I've been reading <a href="">a lot</a> <a href="">of</a> <a href="">articles</a>, lately, giving tips to recent graduates about navigating the jungle that is job hunting. A common suggestion is to establish/improve your online presence.</p>
-
-
-<p>
-</p>
-
-<div class="list-title"><h2>SNAPSHOTS</h2></div>
-
-<iframe src="http://widget.stagram.com/in/mcruz90/?s=100&w=4&h=2&b=1&p=3" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:452px; height: 226px" ></iframe> <!-- websta - web.stagram.com -->
-
-
-		</div>
-
-		<div id="footer">
-			Copyright © 2014
-		</div>
-	</div>
-</div>
+  </body>
+</html>
